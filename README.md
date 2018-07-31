@@ -2,8 +2,8 @@
 
 ## Build
 
-```javac Hello.java```
+```javac greetings/Hello.java```
 
 ## Run
 
-```java Hello [Names...]```
+```java greetings.Hello [Names...]```
