@@ -4,6 +4,10 @@
 
 ```javac greetings/Hello.java```
 
+## Archive
+
+```jar cvfm hello.jar hello.mf greetings/Hello.class```
+
 ## Run
 
-```java greetings.Hello [Names...]```
+```java -jar hello.jar [Names...]```
