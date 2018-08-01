@@ -12,8 +12,8 @@
 
 ## Build
 
-```javac -classpath "libs/*" greetings/Hello.java```
+```./clean.sh && javac -classpath "libs/*" -d classes greetings/Hello.java```
 
 ## Run
 
-```java -classpath .:"libs/*" greetings.Hello [Names...]```
+```java -classpath .:"libs/*":classes/ greetings.Hello [Names...]```
