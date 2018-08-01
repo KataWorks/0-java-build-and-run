@@ -1,2 +1,2 @@
-rm -rf classes
-mkdir -p classes
+rm -rf out
+mkdir -p out

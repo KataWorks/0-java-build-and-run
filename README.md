@@ -12,6 +12,10 @@
 
 ```./install.sh```
 
+## Clean
+
+```./clean.sh```
+
 ## Build
 
 ```./build.sh```

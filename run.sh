@@ -1,1 +1,1 @@
-java -classpath .:"libs/*":classes/ $@
+java -classpath .:"libs/*":out/production/classes $@
