@@ -1,0 +1,1 @@
+java -jar libs/junit-platform-console-standalone-1.2.0.jar --classpath classes/ --scan-classpath classes/
