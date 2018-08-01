@@ -12,7 +12,7 @@
 
 ## Build
 
-```./clean.sh && javac -classpath "libs/*" -d classes greetings/Hello.java```
+```./clean.sh && javac -classpath "libs/*" -d classes $(find src/ -name "*.java")```
 
 ## Run
 
