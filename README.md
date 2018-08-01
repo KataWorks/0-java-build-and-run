@@ -12,8 +12,8 @@
 
 ## Build
 
-```./clean.sh && javac -classpath "libs/*" -d classes $(find src/ -name "*.java")```
+```./build.sh```
 
 ## Run
 
-```java -classpath .:"libs/*":classes/ greetings.Hello [Names...]```
+```./run.sh greetings.Hello [Names...]```
